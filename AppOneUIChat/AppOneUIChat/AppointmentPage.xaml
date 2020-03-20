@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppOneUIChat.AppointmentPage">
+  <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout Padding="20" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="LeftDirection"
+                                 WidthRequest="30"
+                                 BackgroundColor="White"
+                                 HorizontalOptions="Start"/>
+                    <Label Text="Appointment" TextColor="#1c2f3b"
+                           HorizontalOptions="CenterAndExpand"
+                           Margin="0,10,50,0"
+                           FontSize="18"
+                           FontAttributes="Bold"/>
+                </StackLayout>
+                <Frame  BackgroundColor="LightGray" CornerRadius="20" HeightRequest="30"  >
+                    <StackLayout Orientation="Horizontal" >
+                        <StackLayout Orientation="Vertical" Spacing="-5">
+                            <Label Text="Details"
+                               TextColor="#696969"/>
+                            <Label Text="General Visit" FontSize="18" TextColor="#1c2f3b"/>
+                        </StackLayout>
+                        <Button Text=">" WidthRequest="30"
+                            HorizontalOptions="EndAndExpand"
+                            BackgroundColor="LightGray"
+                                />
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="20"  BackgroundColor="LightGray">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" Spacing="-5">
+                                <Label Text="Details"
+                               TextColor="#696969"/>
+                                <Label Text="General Visit" FontSize="18" TextColor="#1c2f3b"/>
+                            </StackLayout>
+                            <Button Text=">" WidthRequest="30" HorizontalOptions="EndAndExpand" BackgroundColor="LightGray"/>
+                        </StackLayout>
+                        <Frame CornerRadius="10" BackgroundColor="White">
+                            <Label FontSize="15">Truman is  a weetheart. He loves play with balls and stuffed mire. He enjoys pets, and  is talkative and has a low booming purr.</Label>
+                        </Frame>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,0">
+                            <Button Text="qqch Skin"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                            <Button Text="qqch Skin Trop Aveugle"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,0">
+                            <Button Text=" Skin"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                            <Button Text="Skin Aveugle"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                            <Button Text="Le soleil"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,5,0,0">
+                            <Button Text="hover Skin i know"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                            <Button Text=" Darone"
+                                    BackgroundColor="White"
+                                    HeightRequest="40"
+                                    TextColor="#d9d9d9"
+                                    FontSize="12" 
+                                    CornerRadius="10"/>
+                        </StackLayout>
+                        
+                    </StackLayout>
+                   
+                </Frame>
+                <Frame  BackgroundColor="LightGray" CornerRadius="20" HeightRequest="30" Margin="0,5,0,5" >
+                    <StackLayout Orientation="Horizontal" >
+                        <StackLayout Orientation="Vertical" Spacing="-5">
+                            <Label Text="Details"
+                               TextColor="#696969"/>
+                            <Label Text="3:30pm"  FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="General Visit" FontSize="18" TextColor="#1c2f3b"/>
+                        </StackLayout>
+                        <Button Text=">" WidthRequest="30"
+                            HorizontalOptions="EndAndExpand"
+                            BackgroundColor="LightGray"
+                                />
+                    </StackLayout>
+                </Frame>
+                <StackLayout Margin="0,15,0,0">
+                    <Button Text="Comfirmation" TextColor="White" BackgroundColor="#f47647" CornerRadius="20" x:Name="BtnComfirm" Clicked="BtnComfirm_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

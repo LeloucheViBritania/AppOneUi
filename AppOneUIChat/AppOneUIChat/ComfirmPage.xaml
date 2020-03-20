@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="AppOneUIChat.ComfirmPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="ComfrimCat" HeightRequest="390"/>
+                <StackLayout Orientation="Horizontal" BackgroundColor="White" TranslationY="-400" Padding="20,10,20,10" Opacity="0.9">
+                    <ImageButton Source="LeftDirection"
+                                 HeightRequest="30"
+                                 BackgroundColor="White"
+                                 WidthRequest="30"
+                                 />
+                    <Label Text="Comfirmation"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           TextColor="Black"
+                           HorizontalOptions="CenterAndExpand"
+                           Margin="0,0,50,0"/>
+                </StackLayout>
+                <Frame CornerRadius="20" BackgroundColor="White" TranslationY="-90">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical" Margin="0,15,0,15">
+                            <Label Text="Banfield Pet Hospital" 
+                                   TextColor="Black"
+                                   FontAttributes="Bold"/>
+                            <Label Text="100 123th Ave, Seattle,WA"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" Margin="0,5,0,15">
+                            <Label Text="Dr. Carol C" 
+                                   TextColor="Black" 
+                                   FontAttributes="Bold"/>
+                            <Label Text="Room A"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" Margin="0,5,0,15">
+                            <Label Text="3:30PM" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="Saturday, Mar 14,2020"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="General Visit" TextColor="Black" FontAttributes="Bold"/>
+                            <Label Text="Vaccination Deworming"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="PhoneBlack" BackgroundColor="White" CornerRadius="50" BorderWidth="1"/>
+                            <ImageButton Source="LocationBlack" BackgroundColor="White" CornerRadius="50" Margin="20,0,0,0"/>
+                            <Button Text="Modify" WidthRequest="180" HeightRequest="50" CornerRadius="50" HorizontalOptions="EndAndExpand" BackgroundColor="#f47647" TextColor="White"/>
+
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

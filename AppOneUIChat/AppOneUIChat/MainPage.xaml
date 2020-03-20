@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="AppOneUIChat.MainPage">
+             
+    <StackLayout>
+
+        <ScrollView>
+            <StackLayout>
+                <Image Source="CatBack"/>
+                <yummy:PancakeView CornerRadius="20,20,0,0" TranslationY="-30" Padding="30" BackgroundColor="White">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Truman" 
+                       FontAttributes="Bold"
+                       TextColor="#696969"
+                       FontSize="19"
+                       />
+                        <Label Text="Domestic Shorthair" 
+                               TextColor="Gray"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source=""/>
+                            <Label Text="Neuterd Male"/>
+                            <Image Source=""/>
+                            <Label Text="6 Months"/>
+                        </StackLayout>
+                        
+                        
+                        <StackLayout Orientation="Vertical" Margin="0,15,0,8" Padding="5">
+                            <Label Text="Care Note"
+                                   FontAttributes="Bold"
+                                   TextColor="#696969"
+                                   FontSize="19"/>
+                            <Label FontSize="15">Truman is  a weetheart. He loves play with balls and stuffed mire. He enjoys pets, and  is talkative and has a low booming purr. He is a voracious eater and should be separed from others kitten while eating</Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="0,100,0,0">
+                            <ImageButton Source="SettingBlack" HorizontalOptions="StartAndExpand" BackgroundColor="White"/>
+                            <Button Text="Make Appointment" 
+                                    HorizontalOptions="EndAndExpand"
+                                    WidthRequest="250"
+                                    CornerRadius="20"
+                                    BackgroundColor="#f47647"
+                                    TextColor="White"
+                                    x:Name="MakeAppoint"
+                                    Clicked="MakeAppoint_Clicked"
+                                   />
+                        </StackLayout>
+                    </StackLayout>
+                </yummy:PancakeView>
+            </StackLayout>
+            
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

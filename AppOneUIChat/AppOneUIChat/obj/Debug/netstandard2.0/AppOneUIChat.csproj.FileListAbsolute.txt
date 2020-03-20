@@ -1,0 +1,14 @@
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\bin\Debug\netstandard2.0\AppOneUIChat.deps.json
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\bin\Debug\netstandard2.0\AppOneUIChat.dll
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\bin\Debug\netstandard2.0\ref\AppOneUIChat.dll
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\bin\Debug\netstandard2.0\AppOneUIChat.pdb
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\AppointmentPage.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\ComfirmPage.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\AppOneUIChat.AssemblyInfoInputs.cache
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\AppOneUIChat.AssemblyInfo.cs
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\AppOneUIChat.dll
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\ref\AppOneUIChat.dll
+C:\Users\Olivier Kra\source\repos\AppOneUIChat\AppOneUIChat\AppOneUIChat\obj\Debug\netstandard2.0\AppOneUIChat.pdb
